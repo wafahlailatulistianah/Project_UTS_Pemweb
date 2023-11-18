@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ 
+section{
+margin: 100px auto;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bali3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.imageAboutPage {
+width: 100%;
+}
+
+.servicesText.card {
+    height: 100px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #070707;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+
+.contact-info{
+  flex: 1;
+}
+
+
+
+.contact-form .send-btn:hover{
+  background: #0582E3;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  
+
+}
+
+/*css for alert messages*/
+
+.alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+
+    <!-- Navigation menu -->
+    <nav> 
+        <ul>
+          <li><a href="#About">About</a></li>
+            <li><a href="#Content">Content</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li class="right"><a href="#PARAWISATA BALI">PARAWISATA BALI</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+    <section class="Home" id="Home">
+        <div class="Home-content">
+            <div class="Home-text">
+                <h2>BALI</h2>
+                <p>wisata bali merupakan salah satu tujuan wisata yang sudah tidak diragukan lagi oleh 
+                  wisatawan asing maupun wisatawan domestik. Pariwisata Bali sudah menjadi tujuan wisata 
+                  dunia yang terkenal di seluruh manca negara.di Pulau Bali, yang merupakan salah satu destinasi pariwisata terkenal di Indonesia. Bali 
+                  terkenal dengan keindahan alamnya, budaya yang kaya, dan pantai-pantainya yang menarik.
+                  Hal Ini terbukti bahwa kunjungan wisatawan asing maupun wisatawan domestik ke Bali dari tahun ke tahun semakin meningkat. Namun tidak 
+                  hanya kunjungan wisatawan untuk berlibur saja yang menyebabkan faktor perkembangan 
+                  kunjungan wisatawan ke Bali meningkat, akan tetapi dengan sering diadakannya acara atau 
+                  event international di Bali juga salah satu faktor perkembangan peningkatan kunjungan tersebut. 
+                  Pulau yang dijuluki Pulau Dewata ini berada tepat di tengah perairan terkaya di dunia untuk 
+                  terumbu karang dan kehidupan laut. Tak heran bila Pulau Bali juga dijuluki 
+                  sebagai “Amazon of the Seas” yang dinamai sesuai dengan keanekaragaman hayati lautnya yang luar biasa. </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="Content" id="Content">
+    <div class="content">
+        <div class="desc" style="block-size: auto;">TEMPAT WISATA</div>
+        <div class="gallery">
+            <a target="_blank" href="kuta.jpg">
+              <img src="kuta.jpg" alt="Cinque Terre" width="600" height="400" style="width:400px;height:200px;">
+            </a>
+            <div class="desc" style="color: rgb(34, 131, 215);">PANTAI KUTA</div>
+            <div class="desc">Pantai Kuta bisa disebut sebagai salah satu ikon wisata Pulau Bali. Pesona dan keeksotisan 
+                Pantai Kuta tak bisa ditawar lagi. Tak heran jika setiap harinya Pantai Kuta dipenuhi dengan 
+                wisatawan lokal maupun asing.</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="TanahLot.jpeg">
+              <img src="TanahLot.jpeg" alt="Forest" width="600" height="400" style="width:400px;height:200px;">
+            </a>
+            <div class="desc" style="color: rgb(34, 131, 215);">TANAH LOT</div>
+            <div class="desc">Tanah Lot adalah sebuah kuil Hindu yang terletak di atas batu karang di tepi laut.
+                Sobat Pesona bisa bayangkan, pemandangan sebuah pura yang berdiri tegak tinggi diatas 
+                karang menghadap ke laut lepas.</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="bali-uluwatu-temple-goibibo.jpg">
+              <img src="bali-uluwatu-temple-goibibo.jpg" alt="Mountains" width="600" height="400" style="width:400px;height:200px;">
+              </a>
+              <div class="desc" style="color: rgb(34, 131, 215);">ULUWATU</div>
+            <div class="desc">Berbeda dengan keindahan pemandangan yang ada di objek wisata 
+                pura Tanah Lot, wisatawan yang berwisata ke pura Luhur Uluwatu akan menyaksikan luasnya hamparan 
+                Samudra India, dengan ombak yang menghantam kaki tebing.Selain itu, wisatawan juga dapat menikmati 
+                indahnya pemandangan matahari terbenam tanpa adanya halangan yang menghalangi pemandangan sunset 
+                dari atas tebing tinggi.</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="nusadua.jpg">
+              <img src="nusadua.jpg" alt="Mountains" width="600" height="400" style="width:400px;height:200px;">
+            </a>
+            <div class="desc" style="color: rgb(34, 131, 215);">PANTAI NUSA DUA</div>
+            <div class="desc">Pantai Nusa Dua Bali merupakan salah satu pantai dengan predikat pantai pasir putih yang 
+                bersih, bebas dari sampah-sampah yang sering menghiasai pantai. pantai nusa dua juga terdapat atraksi Devdan Show 
+                yang bisa di nikmati oleh wisatawan, yaitu pertunjukan mengenai sejarah Indonesia dari jaman 
+                kerajaan hingga jaman modern saat ini.</div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="pura ulun.webp"> 
+              <img src="pura ulun.webp" alt="Mountains" width="600" height="400" style="width:300px;height:200px;">
+            </a>
+            <div class="desc" style="color: rgb(34, 131, 215);">PURA ULUN DANU BRATAN</div>
+            <div class="desc">Pura Ulun Danu Bratan adalah destinasi wisata yang sangat populer bagi turis lokal maupun 
+                mancanegara. Terletak di posisi strategis di jalan yang menyambungkan Bali Utara dan Selatan. 
+                Pura ikonik ini dikelilingi perairan yang tenang bagaikan cermin yang seakan-akan membuat Pura 
+                ini melayang.</div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="pura-lempuyangan.jpg">
+              <img src="pura-lempuyangan.jpg" alt="Mountains" width="600" height="400" style="width:300px;height:200px;">
+            </a>
+            <div class="desc" style="color: rgb(34, 131, 215);">CANDI LEMPUYANG</div>
+            <div class="desc">Lempuyang Temple adalah pura suci umat Hindu yang didedikasikan untuk memuja Ida 
+                Sang Hyang Widi Wasa yang bermanifestasi sebagai Dewa Icwara, terletak di puncak Bukit 
+                Bisbis di timur pulau Bali, dari sini dapat melihat pemandangan yang menakjubkan dari 
+                gunung agung terbesar di Bali.</div>
+          </div>
+    </section>
+    </div>
+
+    <section class="About" id="About">
+      <div class="About">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Responsive Contact Form</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        </head>
+        <body>
+      
+          <!--alert messages start
+          <div class="alert-success">
+            <span>Message Sent! Thank you for contacting us.</span>
+          </div>
+          <div class="alert-error">
+            <span>Something went wrong! Please try again.</span>
+          </div>
+          alert messages end-->
+      
+          <!--contact section start-->
+          <div class="contact-section">
+            <div class="contact-info">
+              <h2>CONTACT US</h2>
+              <div><i class="fas fa-map-marker-alt"></i>Address, Bali</div>
+              <div><i class="fas fa-envelope"></i>wafahistianah1@email.com</div>
+              <div><i class="fas fa-phone"></i>0857-4859-2862</div>
+            </div>
+            
+            <div class="contact-form">
+              <P style="padding: 5%;" >FORM PENGISIAN DATA</P>
+
+
+              <form class="contact" action="" method="post">
+                <form id="bookingForm">
+                  <label for="nama">Nama:</label>
+                  <input type="text" id="nama" name="nama" required><br><br>
+                
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+                
+                  <label for="tanggal">Tanggal:</label>
+                  <input type="date" id="tanggal" name="tanggal" required><br><br>
+                
+                  <input type="submit" value="Pesan">
+                </form>
+                
+                <script>
+                  document.getElementById("bookingForm").addEventListener("submit", function(event) {
+                    var nama = document.getElementById("nama").value;
+                    var email = document.getElementById("email").value;
+                    var tanggal = document.getElementById("tanggal").value;
+                
+                    if (!nama || !email || !tanggal) {
+                      event.preventDefault(); // Menghentikan pengiriman form jika ada field yang kosong
+                      alert("Harap lengkapi semua kolom!");
+                    } else {
+                      // Lakukan pengiriman data atau tindakan selanjutnya
+                      alert("Terima kasih, pesanan Anda berhasil!");
+                    }
+                  });
+                </script>
+                
+              </form>
+            </div>
+          </div>
+          <!--contact section end-->
+      </body>
+</html>

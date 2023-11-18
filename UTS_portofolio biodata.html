@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 90vh;
+  background: url(bagroun.jpg);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.logo {
+  max-height: 60px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: rgb(40, 107, 136);
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: rgb(32, 65, 114);
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #163c5b 20.69%,
+    #1f596d 50.19%,
+    #47ccfd 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+  color: #1f1f25;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #306771;
+}
+.content p {
+  width: 55%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+*{
+margin: 0;
+padding: 0;
+}
+ 
+body{
+
+text-align: center;
+}
+ 
+section{
+margin: 100px auto;
+}
+ 
+section img{
+border-radius: 100%;
+border: 10px solid #fff;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-section{
+  width: 100%;
+  display: flex;
+  background-color: #070707;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #fcfbfb;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+.contact-info{
+  flex: 1;
+  float: right;
+}
+
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <title>About me</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <nav>
+        <img src="logo biodata.png" class="logo" />
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#About Me">About Me</a></li>
+          <li><a href="#My Project ">My Project</a></li>
+          <li><a href="#Contact Me">Contact Me</a></li>
+        </ul>
+      </nav>
+      
+      <div class="hero"></div>
+      <section class="Home" id="Home">
+        <div class="content">
+        <span class="title">BIODATA DIRI</span>
+          <h1>Hello I’m <span>WAFAH</span></h1>
+          <p>
+            Selamat Datang di Portofolio Saya,Saya adalah seorang desainer yang berpengalaman dalam 
+            menciptakan pengalaman pengguna yang menarik.
+          </p>
+      </div>
+      </section>
+
+      <selection class="About Me" id="About Me">
+        <div class="About Me"> 
+          <img src="fotoid.jpeg"style="width:300px;height:300px;">
+          <div class="About-text">
+            <p>Saya Wafah lailatul istianah, Saya seorang Desain UI/UX: Memiliki pemahaman yang kuat tentang prinsip desain 
+              yang baik untuk meningkatkan pengalaman pengguna, Saya telah terlibat dalam berbagai proyek pengembangan web, 
+              mulai dari proyek freelance hingga proyek di perusahaan, Saya sangat suka dalam membaca novel dan membuat UI/UX
+              menurut saya membuat ui/ux itu menyalurkan kreatifitas untuk mendesain sebuah aplikasi yang kita inginkan, 
+              menakjubkan dan antarmuka yang menarik. Saya juga berharap untuk terus mengasah kreativitas saya dalam desain UI/UX guna memberikan pengalaman pengguna yang lebih baik.</p>
+    </div>
+  </section>
+
+      <section class="My Project" id="My Project">
+        <div class="My Project">
+          <div class="About-text">
+          <h2>My PROJECT</h2>
+          <P>Project-project yang pernah saya buat </P>
+<table>
+  <tr>
+    <th>NAMA PROJECT</th>
+    <th>TAHUN PENGERJAAN</th>
+    <th>LINK</th>
+  </tr>
+  <tr>
+    <td>Desain UI/UX, aplikasi </td>
+    <td>2023</td>
+    <td>https://www.figma.com/file/VZkiWKLlKyeXLgFAT0y1RD/Untitled?type=design&node-id=0%3A1&mode=design&t=kJjMwej5cibcU3dF-1</td>
+  </tr>
+  <tr>
+    <td>Artikel tentang adab,sopan dan santun pada remaja </td>
+    <td>2023</td>
+    <td>https://jurnalpost.com/pembentukan-sikap-kesopanan-dan-adab-pada-pelajar-remaja-indonesia/51139/</td>
+    
+  </tr>
+</table>
+</div>
+<section class="Contact Me" id="Contact Me">
+  <div class="Contact Me">
+    <div class="Contact-text">
+      <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      </head>
+      <body>
+        <!--contact section start-->
+        <div class="contact-section">
+          <div class="contact-info">
+            <div class="desc" style="block-size: auto;">CONTACT US</div>
+            <div><i class="fas fa-map-marker-alt"></i>Brebes</div>
+            <div><i class="fas fa-envelope"></i>wafahistianah1@email.com</div>
+            <div><i class="fas fa-phone"></i>0857-4859-2862</div>
+            <h2>Tanggal</h2>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2023-11-18");
+document.getElementById("demo").innerHTML = d;
+</script>
+
+          </div>
+          <p></p>
+  </body>
+</html>
